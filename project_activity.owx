@@ -1,0 +1,1412 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/deya/ontologies/2023/11/untitled-ontology-2"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/deya/ontologies/2023/11/untitled-ontology-2">
+    <Prefix name="" IRI="http://www.semanticweb.org/deya/ontologies/2023/11/untitled-ontology-2/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Android_разработчик"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Backend_разработчик"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DevOps-инженер"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Frontend_разработчик"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Full-stack_разработчик"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IOS_разработчик"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IoT_разработчик"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Product_owner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QA_инженер"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SRE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Автоматизатор_инфрастуктуры"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Автоматизация_и_оркестрация"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Автоматизация_процессов"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Автоматизация_тестирования_развертывания"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Автоматизированный_тестировщик"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Администратор_баз_данных"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Александр"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Алексей"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Алена"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Алина"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Анализ_данных"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Анализ_документации_по_развертыванию"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Анализ_результатов_и_оптимизация"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Анализ_результатов_тестирования"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Анализ_рынка_и_требований_пользователей"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Аналитик_данных"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Аналитик_маркетинга"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Аналитика_веб-трафика"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Анастасия"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Анна"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Арина"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Артем"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Бизнес-аналитик"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Вадим"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Василиса"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Веб-дизайнер"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Веб-разработчик"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Вера"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Визуализация_данных"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Виктория"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Владение_Python"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Владение_SQL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Владение_техническими_инструментами"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Герман"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Графический_дизайнер"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Даниил"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Дарья"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Диана"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Дмитрий"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Должности"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Евгений"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Елена"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Заказчик"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Знанеие_Ruby"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Знани_различных_протоколов_связи"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Знание_Agile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Знание_Angular"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Знание_CSS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Знание_Django"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Знание_Flask"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Знание_HTML"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Знание_Java"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Знание_JavaScript"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Знание_Kotlin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Знание_MongoDB"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Знание_MySQL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Знание_PostgreSQL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Знание_React"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Знание_Scrum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Знание_Solidity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Знание_Swift"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Знание_UIkit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Знание_Unity3D"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Знание_Unreal_Engine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Знание_Xcode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Знание_алгоритмов_консенсуса_ипротоколов_блокчейна"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Знание_алгоритмов_машинного_обучения"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Знание_инструментов_профилирования_и_мониторинга"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Знание_маркетинговых_метрик"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Знание_принципов_и_тенденций_в_дизайне_интерфейса"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Знание_принципов_криптографии"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Знание_спецификации_локализации"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Иван"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Игровой_разработчик"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Иконографический_дизайнер"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Интерактивный_дизайнер"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Интерпретация_результатов"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Интерфейс_дизайнер"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Использование_инструментов_конфигурационного_управления"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Исследование_рынка_и_анализ_потребностей_пользователей"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Кросс-культурная_осведомленность"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Лев"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Лизавета"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Лилия"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Любовь"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Люди"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Макар"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Максим"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Марина"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Мария"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Марк"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Маркетинговый_аналитик"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Матвей"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Машинное_обучение_и_искусственный_интеллект"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Мира"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Мирон"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Михаил"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Мобильный_дизайнер"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Мобильный_маркетолог"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Мониторинг_и_отладка_систем"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Навыки"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Надежда"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Написание_автоматизированных_тестов"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Написание_и_поддержание_автоматизированных_тестов"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Настраивание_и_использование_инструментов_автоматизации_тестирования"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Настройка_и_обслуживание_сетевой_инфраструктуры"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Обеспечение_безопасности_в_облаке"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Облачный_инженер"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Обработка_данных"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Обработка_и_анализ_больших_объемов_данных"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Общение_с_заказчиками"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ольга"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Оптимизация_производительности_баз_данных"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Организация_информации"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Павел"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Петр"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Планирование_и_организация_работы_разработчиков"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Полина"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Пользовательский_аналитик"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Понимание_бизнес-процессов"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Понимание_стандартов_и_протоколов"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Принятие_решений_на_основе_данных"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Проведение_анализа_уязвимости"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Проведение_ручного_тестирования"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Проведение_тестирования_совместимости"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Продуктовый_маркетолог"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Проектирование_и_разработка_баз_данных"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Проектная_деятельность"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Проектный_менеджер"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Проекты"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Работа_с_базами_данных"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Работа_с_большими_объемами_данных_и_проведение_их_анализа"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Работа_с_данными"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Работа_с_инструментами_и_SDK"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Работа_с_мобильными_платформами"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Работа_с_технической_документацией"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Разработка_и_интегрирование_устройства_IoT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Разработка_скрптов_и_интсрументов"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Разработка_стратегии_продукта"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Разработчик_в_области_блокчейн"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Рита"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Роман"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Савелий"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Сбор_данных"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Семен"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Сергей"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Системный_администратор"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Создание_дизайна"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Создание_интуитивного_пользовательского_интерфейса"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Создание_оригинальных_графических_элементов_и_композиций"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Создание_прототипов_и_макетов_интерфейса"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Создание_уникальных_иконок_и_символов"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Создание_устойчивых_и_масштабируемых_архитектур"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Создание_эффективных_иконографических_решений"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Составление_тест-кейсов_и_тест-планов"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#София"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Специалист_по_безопасности"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Тестирование_на_проникновение"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Тестирование_на_разных_устройствах_и_платформах"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Тестировщик_локализации"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Тестировщик_пользовательского_интерфейса"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Тестировщик_производительности"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Тестировщик_развертывания"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Тестировщик_ручного_тестирования"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Тестировщик_совместимости"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Технический_аналитик"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Технический_писатель"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Управление_и_поддержание_ОС"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Управление_конфигурацией"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Управление_рекламными_кампаниями"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Формулирование__и_управление_приоритетами_разработки_продукта"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Цифровой_маркетолог"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Эмилия"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ян"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CI/CD_специалист"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UX/UI_дизайнер"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Знание_С++"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Конфигурирование_и_интеграция_CI/CD_инструментов"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Создаание_и_поддержание_CI/CD_конвейеров"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#разрабатывает"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#нужные_разрабы"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#стек"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#стек_прокета"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#первый_проект_пети"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#петя"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Android_разработчик"/>
+        <Class IRI="#Должности"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Backend_разработчик"/>
+        <Class IRI="#Должности"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DevOps-инженер"/>
+        <Class IRI="#Должности"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Frontend_разработчик"/>
+        <Class IRI="#Должности"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Full-stack_разработчик"/>
+        <Class IRI="#Должности"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IOS_разработчик"/>
+        <Class IRI="#Должности"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IoT_разработчик"/>
+        <Class IRI="#Должности"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Product_owner"/>
+        <Class IRI="#Должности"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QA_инженер"/>
+        <Class IRI="#Должности"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SRE"/>
+        <Class IRI="#Должности"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Автоматизатор_инфрастуктуры"/>
+        <Class IRI="#Должности"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Автоматизация_и_оркестрация"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Автоматизация_процессов"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Автоматизация_тестирования_развертывания"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Автоматизированный_тестировщик"/>
+        <Class IRI="#Должности"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Администратор_баз_данных"/>
+        <Class IRI="#Должности"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Александр"/>
+        <Class IRI="#Люди"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Алексей"/>
+        <Class IRI="#Люди"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Алена"/>
+        <Class IRI="#Люди"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Алина"/>
+        <Class IRI="#Люди"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Анализ_данных"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Анализ_документации_по_развертыванию"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Анализ_результатов_и_оптимизация"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Анализ_результатов_тестирования"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Анализ_рынка_и_требований_пользователей"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Аналитик_данных"/>
+        <Class IRI="#Должности"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Аналитик_маркетинга"/>
+        <Class IRI="#Должности"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Аналитика_веб-трафика"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Анастасия"/>
+        <Class IRI="#Люди"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Анна"/>
+        <Class IRI="#Люди"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Арина"/>
+        <Class IRI="#Люди"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Артем"/>
+        <Class IRI="#Люди"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Бизнес-аналитик"/>
+        <Class IRI="#Должности"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Вадим"/>
+        <Class IRI="#Люди"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Василиса"/>
+        <Class IRI="#Люди"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Веб-дизайнер"/>
+        <Class IRI="#Должности"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Веб-разработчик"/>
+        <Class IRI="#Должности"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Вера"/>
+        <Class IRI="#Люди"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Визуализация_данных"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Виктория"/>
+        <Class IRI="#Люди"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Владение_Python"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Владение_SQL"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Владение_техническими_инструментами"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Герман"/>
+        <Class IRI="#Люди"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Графический_дизайнер"/>
+        <Class IRI="#Должности"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Даниил"/>
+        <Class IRI="#Люди"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Дарья"/>
+        <Class IRI="#Люди"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Диана"/>
+        <Class IRI="#Люди"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Дмитрий"/>
+        <Class IRI="#Люди"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Должности"/>
+        <Class IRI="#Проектная_деятельность"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Евгений"/>
+        <Class IRI="#Люди"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Елена"/>
+        <Class IRI="#Люди"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Заказчик"/>
+        <Class IRI="#Должности"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Знанеие_Ruby"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Знани_различных_протоколов_связи"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Знание_Agile"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Знание_Angular"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Знание_CSS"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Знание_Django"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Знание_Flask"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Знание_HTML"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Знание_Java"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Знание_JavaScript"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Знание_Kotlin"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Знание_MongoDB"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Знание_MySQL"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Знание_PostgreSQL"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Знание_React"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Знание_Scrum"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Знание_Solidity"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Знание_Swift"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Знание_UIkit"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Знание_Unity3D"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Знание_Unreal_Engine"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Знание_Xcode"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Знание_алгоритмов_консенсуса_ипротоколов_блокчейна"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Знание_алгоритмов_машинного_обучения"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Знание_инструментов_профилирования_и_мониторинга"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Знание_маркетинговых_метрик"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Знание_принципов_и_тенденций_в_дизайне_интерфейса"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Знание_принципов_криптографии"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Знание_спецификации_локализации"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Иван"/>
+        <Class IRI="#Люди"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Игровой_разработчик"/>
+        <Class IRI="#Должности"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Иконографический_дизайнер"/>
+        <Class IRI="#Должности"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Интерактивный_дизайнер"/>
+        <Class IRI="#Должности"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Интерпретация_результатов"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Интерфейс_дизайнер"/>
+        <Class IRI="#Должности"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Использование_инструментов_конфигурационного_управления"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Исследование_рынка_и_анализ_потребностей_пользователей"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Кросс-культурная_осведомленность"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Лев"/>
+        <Class IRI="#Люди"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Лизавета"/>
+        <Class IRI="#Люди"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Лилия"/>
+        <Class IRI="#Люди"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Любовь"/>
+        <Class IRI="#Люди"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Люди"/>
+        <Class IRI="#Проектная_деятельность"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Макар"/>
+        <Class IRI="#Люди"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Максим"/>
+        <Class IRI="#Люди"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Марина"/>
+        <Class IRI="#Люди"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Мария"/>
+        <Class IRI="#Люди"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Марк"/>
+        <Class IRI="#Люди"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Маркетинговый_аналитик"/>
+        <Class IRI="#Должности"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Матвей"/>
+        <Class IRI="#Люди"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Машинное_обучение_и_искусственный_интеллект"/>
+        <Class IRI="#Должности"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Мира"/>
+        <Class IRI="#Люди"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Мирон"/>
+        <Class IRI="#Люди"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Михаил"/>
+        <Class IRI="#Люди"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Мобильный_дизайнер"/>
+        <Class IRI="#Должности"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Мобильный_маркетолог"/>
+        <Class IRI="#Должности"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Мониторинг_и_отладка_систем"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Навыки"/>
+        <Class IRI="#Проектная_деятельность"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Надежда"/>
+        <Class IRI="#Люди"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Написание_автоматизированных_тестов"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Написание_и_поддержание_автоматизированных_тестов"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Настраивание_и_использование_инструментов_автоматизации_тестирования"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Настройка_и_обслуживание_сетевой_инфраструктуры"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Обеспечение_безопасности_в_облаке"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Облачный_инженер"/>
+        <Class IRI="#Должности"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Обработка_данных"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Обработка_и_анализ_больших_объемов_данных"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Общение_с_заказчиками"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ольга"/>
+        <Class IRI="#Люди"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Оптимизация_производительности_баз_данных"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Организация_информации"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Павел"/>
+        <Class IRI="#Люди"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Петр"/>
+        <Class IRI="#Люди"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Планирование_и_организация_работы_разработчиков"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Полина"/>
+        <Class IRI="#Люди"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Пользовательский_аналитик"/>
+        <Class IRI="#Должности"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Понимание_бизнес-процессов"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Понимание_стандартов_и_протоколов"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Принятие_решений_на_основе_данных"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Проведение_анализа_уязвимости"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Проведение_ручного_тестирования"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Проведение_тестирования_совместимости"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Продуктовый_маркетолог"/>
+        <Class IRI="#Должности"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Проектирование_и_разработка_баз_данных"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Проектный_менеджер"/>
+        <Class IRI="#Должности"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Проекты"/>
+        <Class IRI="#Проектная_деятельность"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Работа_с_базами_данных"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Работа_с_большими_объемами_данных_и_проведение_их_анализа"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Работа_с_данными"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Работа_с_инструментами_и_SDK"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Работа_с_мобильными_платформами"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Работа_с_технической_документацией"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Разработка_и_интегрирование_устройства_IoT"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Разработка_скрптов_и_интсрументов"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Разработка_стратегии_продукта"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Разработчик_в_области_блокчейн"/>
+        <Class IRI="#Должности"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Рита"/>
+        <Class IRI="#Люди"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Роман"/>
+        <Class IRI="#Люди"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Савелий"/>
+        <Class IRI="#Люди"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Сбор_данных"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Семен"/>
+        <Class IRI="#Люди"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Сергей"/>
+        <Class IRI="#Люди"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Системный_администратор"/>
+        <Class IRI="#Должности"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Создание_дизайна"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Создание_интуитивного_пользовательского_интерфейса"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Создание_оригинальных_графических_элементов_и_композиций"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Создание_прототипов_и_макетов_интерфейса"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Создание_уникальных_иконок_и_символов"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Создание_устойчивых_и_масштабируемых_архитектур"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Создание_эффективных_иконографических_решений"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Составление_тест-кейсов_и_тест-планов"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#София"/>
+        <Class IRI="#Люди"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Специалист_по_безопасности"/>
+        <Class IRI="#Должности"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Тестирование_на_проникновение"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Тестирование_на_разных_устройствах_и_платформах"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Тестировщик_локализации"/>
+        <Class IRI="#Должности"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Тестировщик_пользовательского_интерфейса"/>
+        <Class IRI="#Должности"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Тестировщик_производительности"/>
+        <Class IRI="#Должности"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Тестировщик_развертывания"/>
+        <Class IRI="#Должности"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Тестировщик_ручного_тестирования"/>
+        <Class IRI="#Должности"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Тестировщик_совместимости"/>
+        <Class IRI="#Должности"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Технический_аналитик"/>
+        <Class IRI="#Должности"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Технический_писатель"/>
+        <Class IRI="#Должности"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Управление_и_поддержание_ОС"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Управление_конфигурацией"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Управление_рекламными_кампаниями"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Формулирование__и_управление_приоритетами_разработки_продукта"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Цифровой_маркетолог"/>
+        <Class IRI="#Должности"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Эмилия"/>
+        <Class IRI="#Люди"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ян"/>
+        <Class IRI="#Люди"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CI/CD_специалист"/>
+        <Class IRI="#Должности"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UX/UI_дизайнер"/>
+        <Class IRI="#Должности"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Знание_С++"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Конфигурирование_и_интеграция_CI/CD_инструментов"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Создаание_и_поддержание_CI/CD_конвейеров"/>
+        <Class IRI="#Навыки"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Проекты"/>
+        <NamedIndividual IRI="#первый_проект_пети"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Backend_разработчик"/>
+        <NamedIndividual IRI="#петя"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#стек"/>
+        <NamedIndividual IRI="#петя"/>
+        <Literal>го</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#стек"/>
+        <NamedIndividual IRI="#петя"/>
+        <Literal>джава</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#стек"/>
+        <NamedIndividual IRI="#петя"/>
+        <Literal>питон</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#разрабатывает"/>
+        <Class IRI="#Backend_разработчик"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#разрабатывает"/>
+        <Class IRI="#Backend_разработчик"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#нужные_разрабы"/>
+        <Class IRI="#Backend_разработчик"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#стек"/>
+        <Class IRI="#Backend_разработчик"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#стек_прокета"/>
+        <Class IRI="#Backend_разработчик"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#нужные_разрабы"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#стек"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#стек_прокета"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
